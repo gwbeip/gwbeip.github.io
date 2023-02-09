@@ -20,8 +20,8 @@ redirect_from:
 I am currently a doctoral student in School of Integrated Circuits, Tsinghua University (清华大学集成电路学院).
 
 My research interest includes computer architecture and hardware accelerator of post-quantum cryptography (PQC) and fully homomorphic encryption (FHE). I have published some papers at IEEE conferences and journals.
-<!-- with total <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
--->
+with total <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+
 
 
 # 🔥 News
@@ -51,11 +51,11 @@ My research interest includes computer architecture and hardware accelerator of 
 
 
 # 🎖 Honors and Awards
-- *2021* Comprehensive excellent second-class scholarship
-- *2018* National Scholarship. 
-- *2018* The Second National Undergraduate IC Innovation and Entrepreneurship Competition (第二届全国大学生集成电路创新创业大赛), First prize of Northwest Division, National Finals Excellence Award.
-- *2017* National Scholarship. 
-- *2016* National Scholarship. 
+- `2021` Comprehensive excellent second-class scholarship
+- `2018` National Scholarship. 
+- `2018` The Second National Undergraduate IC Innovation and Entrepreneurship Competition (第二届全国大学生集成电路创新创业大赛), First prize of Northwest Division, National Finals Excellence Award.
+- `2017` National Scholarship. 
+- `2016` National Scholarship. 
 
 # 📖 Educations
 - *2019.09 - now*, Doctoral student in School of Integrated Circuits, Tsinghua University (THU). 
