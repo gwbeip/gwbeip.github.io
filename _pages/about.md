@@ -60,6 +60,7 @@ with total <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'>goog
 # 📖 Educations
 - *2019.09 - now*, Doctoral student in School of Integrated Circuits, Tsinghua University (THU). 
 - *2015.09 - 2019.06*, Undergraduate, School of Software and Microelectronics, Northwestern Polytechnical University (NPU). 
+- *2012.07 - 2015.06*, Xiangcheng High School, Henan Province
 
 # 💬 Invited Talks
 <!-- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
