@@ -53,7 +53,7 @@ My research interest includes computer architecture and hardware accelerator of 
 # 🎖 Honors and Awards
 - *2021* Comprehensive excellent second-class scholarship
 - *2018* National Scholarship. 
-- *2018* The Second National Undergraduate IC Innovation and Entrepreneurship Competition (第二届全国大学四集成电路创新创业大赛), First prize of Northwest Division, National Finals Excellence Award.
+- *2018* The Second National Undergraduate IC Innovation and Entrepreneurship Competition (第二届全国大学生集成电路创新创业大赛), First prize of Northwest Division, National Finals Excellence Award.
 - *2017* National Scholarship. 
 - *2016* National Scholarship. 
 
