@@ -22,7 +22,8 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Wenbo Guo (郭文博)"
-  avatar           : "images/android-chrome-512x512.png"
+  # avatar           : "images/android-chrome-512x512.png"
+  avatar           : "images/me.png"
   bio              : "Tsinghua University"
   location         : "Beijing, China"
   employer         :
