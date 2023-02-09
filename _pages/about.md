@@ -24,7 +24,8 @@ My research interest includes computer architecture and hardware accelerator of 
 
 
 # 🔥 News
-- *2023.02.10*: &nbsp;🎉🎉 Start school. 
+<!-- - *2023.02.10*: &nbsp;🎉🎉 Start school.  -->
+- *2023.02.10*: &nbsp;🛠️ Start school. 
 
 
 # 📝 Publications 
