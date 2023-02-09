@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Wenbo Guo"
+title                    : "Wenbo Guo (郭文博)"
 description              : "Doctoral student in School of Integrated Circuits, Tsinghua University (SIC THU). Focusing on hardware accelerator of Post-quantum Cryptography (PQC) and Fully Homomorphic Encryption (FHE)."
 repository               : "gwbeip/gwbeip.github.io"
 google_scholar_stats_use_cdn : true
