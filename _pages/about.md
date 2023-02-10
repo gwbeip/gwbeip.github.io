@@ -60,7 +60,7 @@ My research interest includes computer architecture and hardware accelerator of 
 <span class='anchor' id='-projects'></span>
 
 # 🛠️ Projects
-- [YSYX](https://ysyx.org)-3rd.
+- RISC-V processor with RV64I instruction set. Supported by [YSYX-3rd(第三期一生一芯)](https://ysyx.oscc.cc/docs/soc/soc.2.html) project, tape-out with TSMC 180nm process. About [YSYX](https://ysyx.oscc.cc/) project.
 
 <span class='anchor' id='-honors-and-awards'></span>
 
