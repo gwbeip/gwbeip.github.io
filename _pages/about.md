@@ -27,6 +27,7 @@ My research interest includes computer architecture and hardware accelerator of 
 
 # 🔥 News
 <!-- - *2023.02.10*: &nbsp;🎉🎉 Start school.  -->
+- *2023.02.15*: &nbsp; Teaching assistant of microprocessor principle and design, School of Integrated Circuits, Tsinghua University.
 - *2023.02.10*: &nbsp;🛠️ Start school.
 
 <span class='anchor' id='-publications'></span>
