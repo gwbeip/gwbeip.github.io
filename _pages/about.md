@@ -19,9 +19,12 @@ redirect_from:
 
 I am currently a doctoral student in the School of Integrated Circuits, Tsinghua University (清华大学集成电路学院).
 
-My research interest includes computer architecture and hardware accelerator of post-quantum cryptography (PQC) and fully homomorphic encryption (FHE). I have published some papers at IEEE conferences and journals  <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+My research interest includes computer architecture and hardware accelerator of post-quantum cryptography (PQC) and fully homomorphic encryption (FHE). I have published some papers at IEEE conferences and journals <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 <!-- with total <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
+<span id="busuanzi_container_site_pv">    
+	<span id="busuanzi_value_site_pv"></span> views in total.
+</span>
 
 <span class='anchor' id='-news'></span>
 
@@ -48,7 +51,7 @@ My research interest includes computer architecture and hardware accelerator of 
 </div>
 -->
 
-## 1. Hardware accelerator for post-quantum cryptography (PQC)
+## 1. Hardware accelerator of post-quantum cryptography (PQC)
 
 - `[J] IEEE TCAS-II` **W. Guo**, S. Li and L. Kong, ["An Efficient Implementation of KYBER,"](https://ieeexplore.ieee.org/document/9509281) in IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 69, no. 3, pp. 1562-1566, March 2022, doi: 10.1109/TCSII.2021.3103184. 
   
