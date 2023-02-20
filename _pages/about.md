@@ -22,9 +22,8 @@ I am currently a doctoral student in the School of Integrated Circuits, Tsinghua
 My research interest includes computer architecture and hardware accelerator of post-quantum cryptography (PQC) and fully homomorphic encryption (FHE). I have published some papers at IEEE conferences and journals <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 <!-- with total <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
-<span id="busuanzi_container_site_pv">    
-	<span id="busuanzi_value_site_pv"></span> views in total.
-</span>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">Total <span id="busuanzi_value_site_pv"></span> views.</span>
 
 <span class='anchor' id='-news'></span>
 
