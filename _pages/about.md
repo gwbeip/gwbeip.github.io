@@ -67,7 +67,7 @@ My research interest includes computer architecture, and hardware accelerator of
 <span class='anchor' id='-projects'></span>
 
 # 🛠️ Projects
-- RISC-V processor with RV64I instruction set, tape-out with TSMC 180nm process. Supported by [YSYX-3rd (第三期一生一芯)](https://ysyx.oscc.cc/docs/soc/soc.2.html) project. About [YSYX](https://ysyx.oscc.cc/) project.
+- RISC-V processor with RV64I instruction set, tape-out with TSMC 180nm process, support [RT-Thread](https://github.com/RT-Thread/rt-thread) operating system. Supported by [YSYX-3rd (第三期一生一芯)](https://ysyx.oscc.cc/docs/soc/soc.2.html) project. About [YSYX](https://ysyx.oscc.cc/) project.
 
 
 <span class='anchor' id='-honors-and-awards'></span>
