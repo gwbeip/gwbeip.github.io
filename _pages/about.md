@@ -55,7 +55,7 @@ My research interest includes computer architecture, and hardware accelerator of
 
 <!-- ## 1. Hardware accelerator of post-quantum cryptography (PQC) -->
 
-- `[J] IEEE TCAS-II` **W. Guo**, S. Li and L. Kong, ["An Efficient Implementation of KYBER,"](https://ieeexplore.ieee.org/document/9509281) in IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 69, no. 3, pp. 1562-1566, March 2022, doi: 10.1109/TCSII.2021.3103184. 
+- `[J] IEEE TCAS-II` **W. Guo**, S. Li and L. Kong, ["An Efficient Implementation of KYBER,"](https://ieeexplore.ieee.org/document/9509281) in IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 69, no. 3, pp. 1562-1566, March 2022, doi: 10.1109/TCSII.2021.3103184. <strong><span class='show_paper_citations' data='CryOyUsAAAAJ:d1gkVwhDpl0C'></span></strong>
   
 - `[C] IEEE ISCAS (CCF B)` **W. Guo** and S. Li, ["Area-Efficient Modular Reduction Structure and Memory Access Scheme for NTT,"](https://ieeexplore.ieee.org/document/9401571) 2021 IEEE International Symposium on Circuits and Systems (ISCAS), Daegu, Korea, 2021, pp. 1-5, doi: 10.1109/ISCAS51556.2021.9401571.
 
