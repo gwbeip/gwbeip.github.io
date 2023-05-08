@@ -83,9 +83,8 @@ My research interest includes computer architecture, and hardware accelerator of
 <span class='anchor' id='-educations'></span>
 
 # 📖 Educations
-- *2019.09 - now*, Doctoral student in the School of Integrated Circuits, Tsinghua University (THU), Beijing, China. 
+- *2019.09 - now*, Doctoral student in the School of Integrated Circuits, Tsinghua University (SIC THU), Beijing, China. 
 - *2015.09 - 2019.06*, Undergraduate, School of Software and Microelectronics, Northwestern Polytechnical University (NPU), Xi'an, China.
-- *2012.07 - 2015.06*, Xiangcheng High School, Henan Province.
 
 <!-- # 💬 Invited Talks -->
 <!-- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
