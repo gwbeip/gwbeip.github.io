@@ -31,8 +31,9 @@ My research interest includes computer architecture, and hardware accelerator of
 
 # 🔥 News
 <!-- - *2023.02.10*: &nbsp;🎉🎉 Start school.  -->
-- *2023.08.15*: &nbsp;🎉 Paper accepted by IEEE TCAS-I.
+- *2023.08.15*: &nbsp;🎉 One paper accepted by IEEE TCAS-I, about enabling mixed radix-2/4 NTT in the hardware implementation of CRYSTALS-Kyber PQC by a novel memory access pattern.
 - *2023.08.07*: &nbsp;🛠️ Start school.
+- *2023.06.26*: &nbsp; Doctoral Practice at IIISCT, Xi'an, China.
 - *2023.02.15*: &nbsp; Teaching assistant of microprocessor principle and design.
 - *2023.02.10*: &nbsp;🛠️ Start school.
 
