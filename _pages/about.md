@@ -19,7 +19,7 @@ redirect_from:
 
 I am currently a doctoral student in the [School of Integrated Circuits](https://www.ime.tsinghua.edu.cn/index.htm), Tsinghua University (SIC THU, 清华大学集成电路学院).
 
-My research interest includes computer architecture, and hardware accelerator of post-quantum cryptography (PQC) and fully homomorphic encryption (FHE). I have published some papers at IEEE conferences and journals <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+My research interest includes computer architecture, and hardware accelerator for [post-quantum cryptography (PQC)](https://csrc.nist.gov/projects/post-quantum-cryptography) and fully homomorphic encryption (FHE). I have published some papers at IEEE conferences and journals <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 <!-- with total <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
@@ -56,6 +56,7 @@ My research interest includes computer architecture, and hardware accelerator of
 </div>
 </div> -->
 
+- `[I] IEEE TC` **W. Guo** and S. Li, ["Split-Radix based Compact Hardware Architecture for CRYSTALS-Kyber,"](https://ieeexplore.ieee.org/document/10264919) in IEEE Transactions on Computers, doi: 10.1109/TC.2023.3320040.
 
 - `Preprint arXiv` **W. Guo**, ["High-Speed (7, 2) Compressor Using A Fast Carry-Generation Logic based on Sorting Network,"](https://arxiv.org/abs/2309.03643) arXiv preprint arXiv:2309.03643, 2023
 
