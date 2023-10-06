@@ -56,7 +56,7 @@ My research interest includes computer architecture, and hardware accelerator fo
 </div>
 </div> -->
 
-- `[I] IEEE TC` **W. Guo** and S. Li, ["Split-Radix based Compact Hardware Architecture for CRYSTALS-Kyber,"](https://ieeexplore.ieee.org/document/10264919) in IEEE Transactions on Computers, doi: 10.1109/TC.2023.3320040.
+- `[J] IEEE TC` **W. Guo** and S. Li, ["Split-Radix based Compact Hardware Architecture for CRYSTALS-Kyber,"](https://ieeexplore.ieee.org/document/10264919) in IEEE Transactions on Computers, doi: 10.1109/TC.2023.3320040.
 
 - `Preprint arXiv` **W. Guo**, ["High-Speed (7, 2) Compressor Using A Fast Carry-Generation Logic based on Sorting Network,"](https://arxiv.org/abs/2309.03643) arXiv preprint arXiv:2309.03643, 2023
 
