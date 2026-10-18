@@ -17,86 +17,85 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a doctoral student in the [School of Integrated Circuits](https://www.ime.tsinghua.edu.cn/index.htm), Tsinghua University (SIC THU, 清华大学集成电路学院).
+I am Wenbo Guo (郭文博). I received my Ph.D. from the [School of Integrated Circuits](https://www.ime.tsinghua.edu.cn/index.htm), Tsinghua University (SIC THU, 清华大学集成电路学院), in 2025. I am currently a postdoctoral researcher at the [College of Computer Science and Artificial Intelligence](https://ai.fudan.edu.cn/), Fudan University (复旦大学计算与智能创新学院), under the supervision of [Yunlei Zhao](https://dblp.org/pid/51/2976.html) (赵运磊).
 
-My research interest includes computer architecture, and hardware accelerator for [post-quantum cryptography (PQC)](https://csrc.nist.gov/projects/post-quantum-cryptography) and fully homomorphic encryption (FHE). I have published some papers at IEEE conferences and journals <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
-<!-- with total <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=CryOyUsAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
+My research interests include computer architecture, cryptographic hardware, post-quantum cryptography (PQC), digital integrated circuit (IC) design, side-channel security, and fully homomorphic encryption (FHE). My work has appeared in IEEE and ACM journals and at international conferences.
 
+[![Google Scholar citation count](https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations)](https://scholar.google.com/citations?user=CryOyUsAAAAJ)
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_container_site_pv">This page has been visited <span id="busuanzi_value_site_pv"></span> times.</span>
 
-
 <span class='anchor' id='-news'></span>
 
 # 🔥 News
-<!-- - *2023.02.10*: &nbsp;🎉🎉 Start school.  -->
-- *2023.09.25*: &nbsp;🎉 One paper accepted by IEEE TC, about modifying the split-radix NTT for CRYSTALS-Kyber.
-- *2023.08.15*: &nbsp;🎉 One paper accepted by IEEE TCAS-I, about enabling mixed radix-2/4 NTT in the hardware implementation of CRYSTALS-Kyber PQC by a novel memory access pattern.
-- *2023.08.07*: &nbsp;🛠️ Start school.
-- *2023.06.26*: &nbsp; Doctoral Practice at IIISCT, Xi'an, China.
-- *2023.02.15*: &nbsp; Teaching assistant of microprocessor principle and design.
-- *2023.02.10*: &nbsp;🛠️ Start school.
 
+- *2026.09*: 🎉 Four post-quantum cryptographic algorithms (OPS-DSA, BW-KEM, DTRU-KEM, and AFS-KEX) were selected for the first round of [NGCC](https://www.niccs.org.cn/symmbzyjy/tzgg/pc/content/2100859557292625920/content_2100859557292625920.html). See [security analyses and updates](https://ngcc.dev/reports/index.html).
 
 <span class='anchor' id='-publications'></span>
 
-# 📝 Publications 
+# 📝 Publications
 
+- `[C] ESORICS 2026` Hengchuan Zou, Songlin Li, Jieyu Zheng, Xiaowen Hu, Hanyu Wei, Weizhi Ao, Yifan Dong, **Wenbo Guo**, and Yunlei Zhao, ["DTRU: A Versatile, Compact, Simple, and Robust NTRU KEM with Double E_8 Encoding,"](https://eprint.iacr.asia/2026/1701.pdf) in ESORICS 2026.
 
-<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- `[J] ACM TACO` Hanyu Wei, Wenqian Li, Shiyu Shen, Hao Yang, **Wenbo Guo**, and Yunlei Zhao, ["Vectorized SVE2 Optimization of the Post-Quantum Signature ML-DSA on ARMv9-A Architecture,"](https://dl.acm.org/doi/abs/10.1145/3839362) in ACM Transactions on Architecture and Code Optimization.
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
-
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
-
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='CryOyUsAAAAJ:d1gkVwhDpl0C'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div> -->
+- `[Preprint] arXiv` **W. Guo**, ["High-Speed (7, 2) Compressor Using A Fast Carry-Generation Logic based on Sorting Network,"](https://arxiv.org/abs/2309.03643) arXiv:2309.03643, 2023.
 
 - `[J] IEEE TC` **W. Guo** and S. Li, ["Split-Radix based Compact Hardware Architecture for CRYSTALS-Kyber,"](https://ieeexplore.ieee.org/document/10264919) in IEEE Transactions on Computers, doi: 10.1109/TC.2023.3320040.
 
-- `Preprint arXiv` **W. Guo**, ["High-Speed (7, 2) Compressor Using A Fast Carry-Generation Logic based on Sorting Network,"](https://arxiv.org/abs/2309.03643) arXiv preprint arXiv:2309.03643, 2023
-
 - `[J] IEEE TCAS-I` **W. Guo** and S. Li, ["Highly-Efficient Hardware Architecture for CRYSTALS-Kyber With a Novel Conflict-Free Memory Access Pattern,"](https://ieeexplore.ieee.org/document/10231113) in IEEE Transactions on Circuits and Systems I: Regular Papers, doi: 10.1109/TCSI.2023.3306347.
 
-- `[J] IEEE TCAS-II` **W. Guo**, S. Li and L. Kong, ["An Efficient Implementation of KYBER,"](https://ieeexplore.ieee.org/document/9509281) in IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 69, no. 3, pp. 1562-1566, March 2022, doi: 10.1109/TCSII.2021.3103184. 
-  
-- `[C] IEEE ISCAS` **W. Guo** and S. Li, ["Area-Efficient Modular Reduction Structure and Memory Access Scheme for NTT,"](https://ieeexplore.ieee.org/document/9401571) 2021 IEEE International Symposium on Circuits and Systems (ISCAS), Daegu, Korea, 2021, pp. 1-5, doi: 10.1109/ISCAS51556.2021.9401571.
+- `[J] IEEE TCAS-II` **W. Guo**, S. Li, and L. Kong, ["An Efficient Implementation of KYBER,"](https://ieeexplore.ieee.org/document/9509281) in IEEE Transactions on Circuits and Systems II: Express Briefs, vol. 69, no. 3, pp. 1562–1566, March 2022, doi: 10.1109/TCSII.2021.3103184.
 
-- `[J] IEEE TVLSI` **W. Guo** and S. Li, ["Fast Binary Counters and Compressors Generated by Sorting Network,"](https://ieeexplore.ieee.org/document/9388166) in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 29, no. 6, pp. 1220-1230, June 2021, doi: 10.1109/TVLSI.2021.3067010.
+- `[C] IEEE ISCAS 2021` **W. Guo** and S. Li, ["Area-Efficient Modular Reduction Structure and Memory Access Scheme for NTT,"](https://ieeexplore.ieee.org/document/9401571) in 2021 IEEE International Symposium on Circuits and Systems (ISCAS), Daegu, Korea, 2021, pp. 1–5, doi: 10.1109/ISCAS51556.2021.9401571.
 
+- `[J] IEEE TVLSI` **W. Guo** and S. Li, ["Fast Binary Counters and Compressors Generated by Sorting Network,"](https://ieeexplore.ieee.org/document/9388166) in IEEE Transactions on Very Large Scale Integration (VLSI) Systems, vol. 29, no. 6, pp. 1220–1230, June 2021, doi: 10.1109/TVLSI.2021.3067010.
 
 <span class='anchor' id='-projects'></span>
 
 # 🛠️ Projects
-- RISC-V processor with RV64I instruction set, tape-out with TSMC 110nm process, support [RT-Thread](https://github.com/RT-Thread/rt-thread) operating system.
-- Hardware accelerator of CRYSTALS-Kyber.
-- Hardware accelerator of B/FV FHE.
-- 10-bit SAR ADC, TSMC 180nm
 
-<span class='anchor' id='-honors-and-awards'></span>
+- Contributed to the NGCC project.
 
-# 🎖 Honors and Awards
-- `2021` Comprehensive excellent scholarship.
-- `2018` National Scholarship. 
-- `2018` The Second National Undergraduate IC Innovation and Entrepreneurship Competition (第二届全国大学生集成电路创新创业大赛), First prize of Northwest Division, National Finals Excellence Award.
-- `2017` Some first and special prizes in some mathematical competitions (Non Mathematics Majors).
-- `2017` National Scholarship. 
-- `2016` National Scholarship. 
+<span class='anchor' id='-professional-service'></span>
 
+# 🤝 Professional Service
 
-<span class='anchor' id='-educations'></span>
+**Journal Reviewer**
 
-# 📖 Educations
-- *2019.09 - now*, Doctoral student in the School of Integrated Circuits, Tsinghua University (SIC THU), Beijing, China. 
-- *2015.09 - 2019.06*, Undergraduate, School of Software and Microelectronics, Northwestern Polytechnical University (NPU), Xi'an, China.
+- IEEE Transactions on Circuits and Systems I: Regular Papers (TCAS-I)
+- IEEE Transactions on Circuits and Systems II: Express Briefs (TCAS-II)
 
-<!-- # 💬 Invited Talks -->
-<!-- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
-<!-- - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
+<span class='anchor' id='-contact-information'></span>
 
-<!-- # 💻 Internships -->
-<!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
+# 📫 Contact Information
+
+- **Email:** [guowenbo@fudan.edu.cn](mailto:guowenbo@fudan.edu.cn)
+- **Address:** Room A7019, No. 2 Interdisciplinary Research Building, Jiangwan Campus, Fudan University, Shanghai, China.
+- **ORCID:** [0000-0003-3204-7236](https://orcid.org/0000-0003-3204-7236)
+
+<!--
+- RISC-V processor implementing the RV64I instruction set, taped out using TSMC's 110 nm process, with support for the [RT-Thread](https://github.com/RT-Thread/rt-thread) operating system.
+- Hardware accelerator for CRYSTALS-Kyber.
+- Hardware accelerator for B/FV fully homomorphic encryption.
+- 10-bit SAR ADC, TSMC 180 nm process.
+-->
+
+<!--
+### 🎖 Honors and Awards
+
+- `2021` Scholarship for comprehensive excellence.
+- `2018` National Scholarship.
+- `2018` The Second National Undergraduate IC Innovation and Entrepreneurship Competition (第二届全国大学生集成电路创新创业大赛): First Prize, Northwest Division; Excellence Award, National Finals.
+- `2017` First and special prizes in mathematics competitions for non-mathematics majors.
+- `2017` National Scholarship.
+- `2016` National Scholarship.
+-->
+
+<!--
+### 📖 Education
+
+- *2019.09 – 2025*: Ph.D., School of Integrated Circuits, Tsinghua University (SIC THU), Beijing, China.
+- *2015.09 – 2019.06*: Undergraduate student, School of Software and Microelectronics, Northwestern Polytechnical University (NPU), Xi'an, China.
+-->

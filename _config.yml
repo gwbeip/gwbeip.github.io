@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Wenbo Guo (郭文博)"
-description              : "Doctoral student in School of Integrated Circuits, Tsinghua University (SIC THU). Focusing on hardware accelerator of Post-quantum Cryptography (PQC) and Fully Homomorphic Encryption (FHE)."
+description              : "Postdoctoral researcher at the College of Computer Science and Artificial Intelligence, Fudan University. Research interests include computer architecture, cryptographic hardware, PQC, digital IC design, side-channel security, and FHE."
 repository               : "gwbeip/gwbeip.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,12 +24,12 @@ author:
   name             : "Wenbo Guo (郭文博)"
   # avatar           : "images/android-chrome-512x512.png"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Tsinghua University"
-  location         : "Beijing, China"
+  bio              : "Postdoctoral Researcher, Fudan University"
+  location         : "Shanghai, China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=CryOyUsAAAAJ"
-  email            : "gwb.eip@foxmail.com"
+  email            : "guowenbo@fudan.edu.cn"
   researchgate     :  "https://www.researchgate.net/profile/Wenbo-Guo-15"
   uri              :
   bitbucket        :
