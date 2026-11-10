@@ -1,72 +1,45 @@
+# Wenbo Guo’s Academic Homepage
 
-<h1 align="center">
-AcadHomepage
-</h1>
+Source code for the academic homepage of Wenbo Guo (郭文博), built with Jekyll and published on GitHub Pages. [Live site](https://gwbeip.github.io/) · [中文说明](docs/README-zh.md)
 
-<div align="center">
+## Update the site
 
-[![](https://img.shields.io/github/stars/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/forks/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/issues/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io)
-[![](https://img.shields.io/github/license/RayeRen/acad-homepage.github.io)](https://github.com/RayeRen/acad-homepage.github.io/blob/main/LICENSE)  | [中文文档](./docs/README-zh.md) 
-</div>
+| File or directory | What to edit |
+| --- | --- |
+| [`_pages/about.md`](_pages/about.md) | Biography, news, publications, projects, professional service, and contact information |
+| [`_config.yml`](_config.yml) | Site title and description, author profile, external links, and optional analytics or site verification |
+| [`_data/navigation.yml`](_data/navigation.yml) | Main menu labels and links |
+| [`images/`](images/) | Profile image and browser icons |
 
-<p align="center">A Modern and Responsive Academic Personal Homepage</p>
+## Preview locally
 
-<p align="center">
-    <br>
-    <img src="docs/screenshot.png" width="100%"/>
-    <br>
-</p>
+Install Ruby and Bundler, then run these commands from the repository root. On Windows, WSL lets you use the Linux platform listed in the repository’s lockfile. [GitHub Pages local preview guide](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
 
-Some examples:
-- [Demo Page](https://rayeren.github.io/acad-homepage.github.io/)
-- [Personal Homepage of the author](https://rayeren.github.io/)
+```sh
+bundle install
+bundle exec jekyll serve
+```
 
-## Key Features
-- **Automatically update google scholar citations**: using the google scholar crawler and github action, this REPO can update the author citations and publication citations automatically.
-- **Support Google analytics**: you can trace the traffics of your homepage by easy configuration.
-- **Responsive**: this homepage automatically adjust for different screen sizes and viewports.
-- **Beautiful and Simple Design**: this homepage is beautiful and simple, which is very suitable for academic personal homepage.
-- **SEO**: search Engine Optimization (SEO) helps search engines find the information you publish on your homepage easily, then rank it against similar websites.
+Open [localhost:4000](http://localhost:4000/) in your browser. Restart Jekyll after changing `_config.yml`.
 
-## Quick Start
+## Publish with GitHub Pages
 
-1. Fork this REPO and rename to `USERNAME.github.io`, where `USERNAME` is your github USERNAME.
-1. Configure the google scholar citation crawler:
-    1. Find your google scholar ID in the url of your google scholar page (e.g., https://scholar.google.com/citations?user=SCHOLAR_ID), where `SCHOLAR_ID` is your google scholar ID.
-    1. Set GOOGLE_SCHOLAR_ID variable to your google scholar ID in `Settings -> Secrets -> Actions -> New repository secret` of the REPO website with `name=GOOGLE_SCHOLAR_ID` and `value=SCHOLAR_ID`.
-    1. Click the `Action` of the REPO website and enable the workflows by clicking *"I understand my workflows, go ahead and enable them"*. This github action will generate google scholar citation stats data `gs_data.json` in `google-scholar-stats` branch of your REPO. When you update your main branch, this action will be triggered. This action will also be trigger 08:00 UTC everyday.
-1. Generate favicon using [favicon-generator](https://redketchup.io/favicon-generator) and download all generated files to `REPO/images`.
-1. Modify the configuration of your homepage `_config.yml`:
-    1. `title`: the title of your homepage
-    1. `description`: the description of your homepage
-    1. `repository`: USER_NAME/REPO_NAME  
-    1. `google_analytics_id` (optional): google analytics ID
-    1. SEO Related keys (optional): get these keys from search engine consoles (e.g. Google, Bing and Baidu) and paste here.
-    1. `author`: the author information of this homepage, including some other websites, emails, city and univeristy.
-    1. More configuration details are described in the comments.
-1. Add your homepage content in `_pages/about.md`.
-    1. You can use html+markdown syntax just same as jekyll.
-    1. You can use a `<span>` tag with class `show_paper_citations` and attribute `data` to display the citations of your paper. Set the data to the google scholar paper ID. For
-        ```html
-        <span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span>
-        ``` 
-        > Q: How to get the google scholar paper ID?   
-        > A: Enter your google scholar homepage and click the paper name. Then you can see the paper ID from `citation_for_view=XXXX`, where `XXXX` is the required paper ID.
-1. Your page will be published at `https://USERNAME.github.io`.
+In the repository’s **Settings → Pages**, choose **Deploy from a branch**, then select `main` and `/(root)`. GitHub Pages rebuilds the site when changes are pushed to that source. [GitHub Pages publishing settings](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
-## Debug Locally
+If you use this repository for your own user site, name your repository `USERNAME.github.io` and set `repository` in [`_config.yml`](_config.yml) to `USERNAME/USERNAME.github.io`. Replace the author profile and homepage content before publishing.
 
-1. Clone your REPO to local using `git clone`.
-1. Install Jekyll building environment, including `Ruby`, `RubyGems`, `GCC` and `Make` following [the installation guide](https://jekyllrb.com/docs/installation/#requirements).
-1. Run `bash run_server.sh` to start Jekyll livereload server.
-1. Open http://127.0.0.1:4000 in your browser.
-1. If you change the source code of the website, the livereload server will automatically refresh.
-1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
+## Update Google Scholar citations
 
-# Acknowledges
+1. Copy the value of the `user` parameter from your Google Scholar profile URL.
+2. In **Settings → Secrets and variables → Actions**, add a repository secret named `GOOGLE_SCHOLAR_ID` with that value. [GitHub Actions secrets](https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets#creating-secrets-for-a-repository)
+3. On GitHub, open **Actions → Get Citation Data → Run workflow** and select the default branch. The workflow file needs to be on that branch for the button to appear. If you created a fork, enable its workflows in **Actions** first. [Manual workflow runs](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/manually-run-a-workflow)
 
-- AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
-- AcadHomepage is influenced by the github repo [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes), which is distributed under the MIT License.
-- AcadHomepage is influenced by the github repo [academicpages/academicpages.github.io](https://github.com/academicpages/academicpages.github.io), which is distributed under the MIT License.
+The [workflow](.github/workflows/google_scholar_crawler.yaml) runs on `ubuntu-26.04` with Python 3.12. It is scheduled for Mondays at 08:00 Beijing time (`Asia/Shanghai`) and can also run on demand.
+
+A successful run publishes `gs_data.json` (author and publication statistics) and `gs_data_shieldsio.json` (the homepage citation badge) to the [`google-scholar-stats` branch](https://github.com/gwbeip/gwbeip.github.io/tree/google-scholar-stats). Check that branch first if the badge looks stale. When `google_scholar_stats_use_cdn` is enabled, CDN caching can delay what appears on the homepage.
+
+If a run fails, open the failed step in **Actions** to identify whether dependency installation, data fetching, or publishing failed. The [crawler requirements](google_scholar_crawler/requirements.txt) keep `bibtexparser` below 2 because the installed version of `scholarly` uses its 1.x API.
+
+## Credits and license
+
+The site is based on [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io), which draws on [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) and [Academic Pages](https://github.com/academicpages/academicpages.github.io). It uses [Font Awesome](https://fontawesome.com/). See the [MIT license](LICENSE) for the site code.
